@@ -1,0 +1,72 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  background-color: #00000edf;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 60px;
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.player {
+  margin-top: 70px;
+}
+
+.playlist {
+  padding-top: 20px;
+}
+
+.title {
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+}
+
+.play {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px;
+  padding: 0px 7px 0px 7px;
+  width: fit-content;
+  outline: none;
+  color: white;
+  appearance: button;
+  background-color: #7e53ff;
+  cursor: pointer;
+  border: 1px solid #724ae8;
+  border-radius: 3px;
+}
+
+.play:hover {
+  background-color: #724ae8;
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+
+li {
+  color: #b2b2b2;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+h2 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 20%;
+}
+
+a {
+  text-decoration: underline 2px #f7768e;
+  color: #fff
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+}
